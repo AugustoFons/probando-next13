@@ -13,6 +13,7 @@ export default function page() {
             <div className="caja">
                 <Image  //width y height obligatorio
                 src="/images/imagen1.jpg"   //esta en public!
+                alt="van gogh"
                 width={400}
                 height={400}
                 layout="responsive"
@@ -21,6 +22,7 @@ export default function page() {
             <div className="caja">
                 <Image  //width y height obligatorio
                 src={imagen2}
+                alt="trenes"
                 width={400}
                 height={400}
                 layout="responsive"
@@ -29,6 +31,7 @@ export default function page() {
             <div className="caja">
                 <Image  //width y height obligatorio
                 loader={cargador}
+                alt="jardin"
                 src="d98b2ae3423788c9dffc1e7ed01c/n08359-15-lr-1.jpg"
                 width={400}
                 height={400}

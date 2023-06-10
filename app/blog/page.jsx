@@ -7,7 +7,7 @@ export default async function page() {
         <div>
         <h2>Soy un Blog</h2>
         {data.map(({id, title, body})=>(
-            <div>
+            <div key={id}>
                 <Link href='/blog/[id]' as={`/blog/${id}`}>
                     <h3>{id} - {title}</h3>
                 </Link>
